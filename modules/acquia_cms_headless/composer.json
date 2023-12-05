@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_headless",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Provides a Headless/Decoupled functionality for Acquia CMS.",
     "license": "GPL-2.0-or-later",
@@ -84,5 +85,6 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

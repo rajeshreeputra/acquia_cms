@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_component",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Provides component and related configuration for Acquia CMS.",
     "license": "GPL-2.0-or-later",
@@ -36,5 +37,6 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "531ca52b41783a0d52ed72d463e42c00",
+    "content-hash": "dfb8bc53c3f67227e8acd60757f136c7",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -2410,7 +2410,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_audio",
-                "reference": "26327066b33d8ed59c5ec0efa8c5ec56d7700cf4"
+                "reference": "ee2c2debe6d5a039ff1aa022e344d86929fe2ddb"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2436,7 +2436,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_common",
-                "reference": "8122ceda2326635223cd41841a51e4c9b5b5c767"
+                "reference": "8bb6d34304b7ac43ae58b793c36af93e0f930e96"
             },
             "require": {
                 "acquia/drupal-environment-detector": "^1.5",
@@ -2490,7 +2490,7 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "2.x-dev"
+                    "dev-develop": "3.x-dev"
                 },
                 "drush": {
                     "services": {
@@ -2522,7 +2522,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_component",
-                "reference": "0953301c97148102dde5605639008b2b0bc76701"
+                "reference": "91f7f81a10f809328f8d2830012f755dbf5d80f1"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2551,7 +2551,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_dam",
-                "reference": "99c4a0c0da37ca9012326517c1c4d961e87b3fb7"
+                "reference": "94488e5b4277b616a5d2d3e1f299e9b0c8c72ea1"
             },
             "require": {
                 "drupal/acquia_cms_image": "1.x-dev",
@@ -2638,7 +2638,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_headless",
-                "reference": "7297fc9bfffb56cd7c720204a6f50fcd31cf3262"
+                "reference": "be9d0fb04480afba932ac7a16e7b51599b1a0fda"
             },
             "require": {
                 "drupal/acquia_cms_tour": "2.x-dev",
@@ -2715,7 +2715,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_image",
-                "reference": "5fcb08a23c722aac22f261e81e24ec30790677e0"
+                "reference": "998ec21adec04a3e4e92adb8e41dfc97af92ee68"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2774,7 +2774,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_person",
-                "reference": "f504f018d27514a40ed8abcda7575c2ead65e86c"
+                "reference": "cd524e87525aa9dc21049661210baff86641e816"
             },
             "require": {
                 "drupal/acquia_cms_place": "1.x-dev",
@@ -2800,7 +2800,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_place",
-                "reference": "0ef7c463dbbc6821095c788a6f57ba599d40c08e"
+                "reference": "32190e31c25d27449f6670472db498f15164e3b3"
             },
             "require": {
                 "drupal/acquia_cms_image": "1.x-dev",
@@ -2830,7 +2830,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_search",
-                "reference": "a6c390f1e9d30bbf658cb9d3be8c276f8b81eb87"
+                "reference": "f86f5c41d6f222060c5842ec888e3cffaecdbfdf"
             },
             "require": {
                 "cweagans/composer-patches": "^1.7",
@@ -2872,7 +2872,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_site_studio",
-                "reference": "292070b51ef7a44436cf894b6836c637c080e7f5"
+                "reference": "b506885d4c374b1e2b597325b8f056b2e621bd18"
             },
             "require": {
                 "acquia/cohesion": "^6.9.2 || ~7.3.2",
@@ -2926,7 +2926,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_starter",
-                "reference": "6edace4bd4f6b82f88b3900f9ecae0fa70c15b6c"
+                "reference": "1096e805970d4cb70b555a0fcce776abfb816d62"
             },
             "require": {
                 "drupal/acquia_cms_article": "1.x-dev",
@@ -2963,7 +2963,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_toolbar",
-                "reference": "ff8fe4ffb2b7c0d87aaeecc8c4626ea79c93a433"
+                "reference": "79f5ba81b2b766f3b92d77b57f0e000bdc639a3a"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2989,7 +2989,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_tour",
-                "reference": "2c7f3b24150ff29d3012cd4cd4a2a3c592bba42e"
+                "reference": "1d8805239bd9b56080334aa29526f58618037365"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -6925,10 +6925,6 @@
                 {
                     "name": "nielsvm",
                     "homepage": "https://www.drupal.org/user/163285"
-                },
-                {
-                    "name": "SqyD",
-                    "homepage": "https://www.drupal.org/user/106525"
                 }
             ],
             "description": "Provides a generic external cache invalidation API and queue service.",
@@ -6971,10 +6967,6 @@
                 {
                     "name": "nielsvm",
                     "homepage": "https://www.drupal.org/user/163285"
-                },
-                {
-                    "name": "SqyD",
-                    "homepage": "https://www.drupal.org/user/106525"
                 }
             ],
             "description": "Queues every tag that Drupal invalidates internally.",
@@ -8166,7 +8158,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/sitestudio_config_management",
-                "reference": "873425802a3c036de205f5ef3f064394f6082b90"
+                "reference": "bc21f4f4239f1b987f3d06ac2e4a43497c441ef3"
             },
             "require": {
                 "acquia/cohesion": "^6.9.2 || ~7.3.2",
@@ -20781,5 +20773,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

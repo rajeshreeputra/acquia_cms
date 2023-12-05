@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_starter",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Contains the example content for demonstration.",
     "license": "GPL-2.0-or-later",
@@ -45,5 +46,5 @@
             "url": "https://packages.drupal.org/8"
         }
     },
-    "minimum-stability": "alpha"
+    "minimum-stability": "dev"
 }

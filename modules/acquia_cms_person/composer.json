@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_person",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Provides a Person content type, a structured data representation of people associated with a website or organization.",
     "license": "GPL-2.0-or-later",
@@ -33,5 +34,6 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

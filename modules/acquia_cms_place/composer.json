@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_place",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Provides a Place content type and related configuration.",
     "license": "GPL-2.0-or-later",
@@ -38,5 +39,5 @@
             "url": "https://packages.drupal.org/8"
         }
     },
-    "minimum-stability": "RC"
+    "minimum-stability": "dev"
 }

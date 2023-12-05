@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_audio",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Provides an Audio media type and related configuration.",
     "license": "GPL-2.0-or-later",
@@ -33,5 +34,6 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

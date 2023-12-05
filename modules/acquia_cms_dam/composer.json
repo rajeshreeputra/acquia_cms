@@ -1,5 +1,6 @@
 {
     "name": "drupal/acquia_cms_dam",
+    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Provides an Acquia DAM related configuration.",
     "license": "GPL-2.0-or-later",
@@ -44,5 +45,6 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
