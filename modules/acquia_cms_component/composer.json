@@ -37,6 +37,5 @@
         },
         "enable-patching": true,
         "patches": {}
-    },
-    "minimum-stability": "dev"
+    }
 }

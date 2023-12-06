@@ -12,7 +12,7 @@ updates:
       - dependency-type: "all"
     versioning-strategy: auto
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     # Raise pull requests for version updates
     # to pip against the `develop` branch
@@ -26,7 +26,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -45,7 +45,7 @@ updates:
       - dependency-type: "all"
     versioning-strategy: auto
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     # Raise pull requests for version updates
     # to pip against the `develop` branch
@@ -59,8 +59,9 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+      - dependency-name: "acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
@@ -74,7 +75,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -89,7 +90,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -104,7 +105,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -119,7 +120,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -134,7 +135,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -149,7 +150,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -164,7 +165,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -179,7 +180,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -194,7 +195,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -209,7 +210,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
@@ -224,7 +225,7 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     versioning-strategy: auto
     # Raise pull requests for version updates
