@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfb8bc53c3f67227e8acd60757f136c7",
+    "content-hash": "c7eb9781acd51bfdb0bcb16c0d46dfe6",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -2410,7 +2410,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_audio",
-                "reference": "ee2c2debe6d5a039ff1aa022e344d86929fe2ddb"
+                "reference": "92d3abec875d7637da94dff8960d5f131eb904c4"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2436,7 +2436,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_common",
-                "reference": "8bb6d34304b7ac43ae58b793c36af93e0f930e96"
+                "reference": "dffba1e7433db123860558864d6257b324d430eb"
             },
             "require": {
                 "acquia/drupal-environment-detector": "^1.5",
@@ -2500,11 +2500,11 @@
                 "enable-patching": true,
                 "patches": {
                     "drupal/core": {
-                        "3301692 - Passing null to parameter to mb_strtolower() is deprecated with PHP 8.1": "https://git.drupalcode.org/project/drupal/-/merge_requests/2598.patch",
                         "296693 - Restrict access to empty top level administration pages": "https://www.drupal.org/files/issues/2023-08-31/296693-10.1.x_0.patch",
-                        "3371005 - Toolbar does not indicate active menu trail for pages not included in Toolbar": "https://git.drupalcode.org/project/drupal/-/commit/3165269bb01a5a8e5f53c1f369135b967c9d5924.patch",
+                        "3301692 - Passing null to parameter to mb_strtolower() is deprecated with PHP 8.1": "https://git.drupalcode.org/project/drupal/-/merge_requests/2598.patch",
+                        "3347291: - Combine field storage and field instance forms": "https://www.drupal.org/files/issues/2023-09-13/10.1-3347291-combine-mega-e.patch",
                         "3370946 - Page title should contextualize the local navigation": "https://www.drupal.org/files/issues/2023-09-11/3370946-page-title-backport-10-1-x.patch",
-                        "3347291: - Combine field storage and field instance forms": "https://www.drupal.org/files/issues/2023-09-13/10.1-3347291-combine-mega-e.patch"
+                        "3371005 - Toolbar does not indicate active menu trail for pages not included in Toolbar": "https://git.drupalcode.org/project/drupal/-/commit/3165269bb01a5a8e5f53c1f369135b967c9d5924.patch"
                     }
                 }
             },
@@ -2522,7 +2522,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_component",
-                "reference": "91f7f81a10f809328f8d2830012f755dbf5d80f1"
+                "reference": "a6f60d9743a3be48451dd565f7f9e058879358ee"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2551,7 +2551,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_dam",
-                "reference": "94488e5b4277b616a5d2d3e1f299e9b0c8c72ea1"
+                "reference": "7a3e00a3b858632b29295a5dd6e7c365119192d4"
             },
             "require": {
                 "drupal/acquia_cms_image": "1.x-dev",
@@ -2638,7 +2638,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_headless",
-                "reference": "be9d0fb04480afba932ac7a16e7b51599b1a0fda"
+                "reference": "ba0f718d2ec317b1f2879551c7bab541c50dcf9c"
             },
             "require": {
                 "drupal/acquia_cms_tour": "2.x-dev",
@@ -2715,7 +2715,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_image",
-                "reference": "998ec21adec04a3e4e92adb8e41dfc97af92ee68"
+                "reference": "0f40c0ac5fd69777b306fcb811f90f04d2d3bf52"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2774,7 +2774,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_person",
-                "reference": "cd524e87525aa9dc21049661210baff86641e816"
+                "reference": "d754f469859ec7bdeeebd7801af4d925ce5fe9f3"
             },
             "require": {
                 "drupal/acquia_cms_place": "1.x-dev",
@@ -2800,7 +2800,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_place",
-                "reference": "32190e31c25d27449f6670472db498f15164e3b3"
+                "reference": "a25aeeae13c04cb8968672889b61eefa2983396f"
             },
             "require": {
                 "drupal/acquia_cms_image": "1.x-dev",
@@ -2830,7 +2830,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_search",
-                "reference": "f86f5c41d6f222060c5842ec888e3cffaecdbfdf"
+                "reference": "ff50a03be3d2c6a9b142c8a2fb51338ced8a6f87"
             },
             "require": {
                 "cweagans/composer-patches": "^1.7",
@@ -2872,7 +2872,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_site_studio",
-                "reference": "b506885d4c374b1e2b597325b8f056b2e621bd18"
+                "reference": "0ed0dd81cdba7f1e272dc14f70abf49a790cc418"
             },
             "require": {
                 "acquia/cohesion": "^6.9.2 || ~7.3.2",
@@ -2926,7 +2926,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_starter",
-                "reference": "1096e805970d4cb70b555a0fcce776abfb816d62"
+                "reference": "8ccad38589658eac330e04881ae9047e926236ac"
             },
             "require": {
                 "drupal/acquia_cms_article": "1.x-dev",
@@ -2963,7 +2963,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_toolbar",
-                "reference": "79f5ba81b2b766f3b92d77b57f0e000bdc639a3a"
+                "reference": "4b108db584c9318eaddfc98fc9727dc1721fd7f9"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -2989,7 +2989,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/acquia_cms_tour",
-                "reference": "1d8805239bd9b56080334aa29526f58618037365"
+                "reference": "a6d9761ab38bb67904557e1d8994c58d7ed1c7c9"
             },
             "require": {
                 "drupal/acquia_cms_common": "1.x-dev || 2.x-dev || 3.x-dev",
@@ -8158,7 +8158,7 @@
             "dist": {
                 "type": "path",
                 "url": "./modules/sitestudio_config_management",
-                "reference": "bc21f4f4239f1b987f3d06ac2e4a43497c441ef3"
+                "reference": "4f89524385a22d81caf4f03bea777f420b3ccd19"
             },
             "require": {
                 "acquia/cohesion": "^6.9.2 || ~7.3.2",

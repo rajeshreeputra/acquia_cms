@@ -1,8 +1,8 @@
 {
     "name": "drupal/sitestudio_config_management",
-    "version": "dev-develop",
     "type": "drupal-module",
     "description": "Contains configuration for config filter, config ignore & config split.",
+    "version": "dev-develop",
     "license": "GPL-2.0-or-later",
     "require": {
         "php": ">=7.4",
