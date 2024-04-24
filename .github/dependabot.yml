@@ -16,7 +16,7 @@ updates:
       - dependency-name: "drupal/acquia_cms*"
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_audio"
@@ -31,7 +31,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_common"
@@ -49,7 +49,7 @@ updates:
       - dependency-name: "drupal/acquia_cms*"
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_component"
@@ -65,7 +65,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_dam"
@@ -80,7 +80,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_headless"
@@ -95,7 +95,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_image"
@@ -110,7 +110,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_person"
@@ -125,7 +125,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_place"
@@ -140,7 +140,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_search"
@@ -155,7 +155,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_site_studio"
@@ -170,7 +170,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_starter"
@@ -185,7 +185,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_toolbar"
@@ -200,7 +200,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_tour"
@@ -215,7 +215,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/sitestudio_config_management"
@@ -230,7 +230,7 @@ updates:
     versioning-strategy: auto
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/"
