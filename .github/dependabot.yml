@@ -10,12 +10,13 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    versioning-strategy: increase-if-necessary
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_audio"
@@ -25,11 +26,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
-      - dependency-name: "drupal/acquia_cms_common"
+      # We don't want to check for acquia_cms modules.
+      - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_common"
@@ -41,12 +43,13 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    versioning-strategy: increase-if-necessary
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_component"
@@ -56,11 +59,13 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+      - dependency-name: "acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_dam"
@@ -70,11 +75,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_headless"
@@ -84,11 +90,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_image"
@@ -98,11 +105,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_person"
@@ -112,11 +120,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_place"
@@ -126,11 +135,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_search"
@@ -140,11 +150,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_site_studio"
@@ -154,11 +165,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_starter"
@@ -168,11 +180,12 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/modules/acquia_cms_toolbar"
@@ -182,11 +195,42 @@ updates:
       timezone: "Asia/Kolkata"
       time: "09:00"
     ignore:
-      # We don't want check for acquia_cms modules.
+      # We don't want to check for acquia_cms modules.
       - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "develop"
+    target-branch: "feature/automate-dependency"
+
+  - package-ecosystem: "composer"
+    directory: "/modules/acquia_cms_tour"
+    schedule:
+      interval: "daily"
+      # Use Indian Standard Time (UTC +05:30)
+      timezone: "Asia/Kolkata"
+      time: "09:00"
+    ignore:
+      # We don't want to check for acquia_cms modules.
+      - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
+    # Raise pull requests for version updates
+    # to pip against the `develop` branch
+    target-branch: "feature/automate-dependency"
+
+  - package-ecosystem: "composer"
+    directory: "/modules/sitestudio_config_management"
+    schedule:
+      interval: "daily"
+      # Use Indian Standard Time (UTC +05:30)
+      timezone: "Asia/Kolkata"
+      time: "09:00"
+    ignore:
+      # We don't want to check for acquia_cms modules.
+      - dependency-name: "drupal/acquia_cms*"
+    versioning-strategy: increase-if-necessary
+    # Raise pull requests for version updates
+    # to pip against the `develop` branch
+    target-branch: "feature/automate-dependency"
 
   - package-ecosystem: "composer"
     directory: "/"
@@ -198,7 +242,7 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
-    versioning-strategy: widen
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
     target-branch: "1.5.x"
@@ -213,7 +257,7 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
-    versioning-strategy: widen
+    versioning-strategy: increase-if-necessary
     # Raise pull requests for version updates
     # to pip against the `develop` branch
-    target-branch: "2.0.x"
+    target-branch: "2.x"
